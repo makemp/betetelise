@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassBritain — Support</title>
+    <style>
+        :root {
+            --ink: #101828;
+            --secondary: #5B6472;
+            --background: #F7F4ED;
+            --card: #FFFFFF;
+            --accent: #1F5C40;
+            --gold: #C9A227;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --ink: #ECE9E0;
+                --secondary: #9BA1AC;
+                --background: #16181D;
+                --card: #1F222A;
+                --accent: #4C9A72;
+                --gold: #D8B64A;
+            }
+        }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background: var(--background);
+            color: var(--ink);
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+            font-size: 17px;
+            line-height: 1.6;
+        }
+        main { max-width: 680px; margin: 0 auto; }
+        header { text-align: center; margin-bottom: 32px; }
+        .wordmark {
+            font-family: ui-serif, "New York", Georgia, serif;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin: 0 0 12px;
+        }
+        h1 {
+            font-family: ui-serif, "New York", Georgia, serif;
+            font-size: 34px;
+            font-weight: 700;
+            margin: 0 0 8px;
+        }
+        .tagline { color: var(--secondary); font-size: 15px; margin: 0; }
+        .card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: 0 4px 12px rgba(16, 24, 40, 0.08);
+        }
+        h2 {
+            font-family: ui-serif, "New York", Georgia, serif;
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0 0 8px;
+            color: var(--accent);
+        }
+        h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin: 16px 0 4px;
+            color: var(--ink);
+        }
+        p { margin: 0 0 12px; }
+        p:last-child, ul:last-child { margin-bottom: 0; }
+        ul { margin: 0 0 12px; padding-left: 22px; }
+        li { margin-bottom: 6px; }
+        a { color: var(--accent); }
+        .contact {
+            border-left: 4px solid var(--accent);
+        }
+        .contact p:last-child {
+            font-family: ui-serif, "New York", Georgia, serif;
+            font-size: 19px;
+            font-weight: 700;
+            margin: 0;
+        }
+        footer {
+            text-align: center;
+            color: var(--secondary);
+            font-size: 13px;
+            margin-top: 32px;
+        }
+    </style>
+</head>
+<body>
+<main>
+    <header>
+        <p class="wordmark">PassBritain</p>
+        <h1>Support</h1>
+        <p class="tagline">Help with the Life in the UK Test preparation app</p>
+    </header>
+
+    <section class="card contact">
+        <h2>Get in touch</h2>
+        <p>Found a wrong answer, hit a bug, or have a suggestion? Email us and we'll get back to you:</p>
+        <p><a href="mailto:info@betetelise.com">info@betetelise.com</a></p>
+    </section>
+
+    <section class="card">
+        <h2>When you write, it helps to include</h2>
+        <ul>
+            <li>What you were doing and what you expected to happen</li>
+            <li>Your device model and iOS version (iOS Settings → General → About)</li>
+            <li>The app version (in the app: Settings → About → Version)</li>
+            <li>A screenshot, if it shows the problem</li>
+        </ul>
+        <p>If your question is about a specific practice question, quote its text or the reference shown beneath the explanation — that lets us find and fix it quickly.</p>
+    </section>
+
+    <section class="card">
+        <h2>Frequently asked questions</h2>
+
+        <h3>Is my progress backed up or synced between devices?</h3>
+        <p>No — everything is stored only on the device you studied on, and nothing is synced. Deleting the app deletes your progress, so keep that in mind before removing it.</p>
+
+        <h3>I'm not getting reminders or the test-day countdown.</h3>
+        <p>Check three places: the app's Settings → daily reminder toggle; iOS Settings → Notifications → PassBritain (permission must be allowed); and any active Focus mode, which can silence notifications. The test-day countdown is scheduled at 9:00 the day before your test and 8:00 on the morning itself — if you set a test date that's tomorrow after 9:00 has passed, only the morning nudge remains.</p>
+
+        <h3>The Home Screen widget isn't updating.</h3>
+        <p>Widgets refresh when you study and on a schedule controlled by iOS. If it looks stale, open the app once — that refreshes the widget. If it's still stuck, remove the widget and add it again.</p>
+
+        <h3>Does the app work offline?</h3>
+        <p>Yes. Every question, mock exam, and explanation is bundled in the app. The only thing that ever uses the network is an optional check for required app updates — nothing else, and no personal data is ever sent (see our <a href="privacy.html">privacy policy</a>).</p>
+
+        <h3>Can I change my test date or daily goal?</h3>
+        <p>Yes — in the app's Settings. Moving your test date automatically re-paces your study plan and reschedules the countdown notifications.</p>
+
+        <h3>How do I start over?</h3>
+        <p>Settings → Reset Progress clears your answers, scores, streaks, and bookmarks. This can't be undone.</p>
+
+        <h3>Are these the real exam questions?</h3>
+        <p>No — and no app can offer those. All PassBritain questions are original works aligned to the official handbook syllabus, "Life in the United Kingdom: A Guide for New Residents" (3rd edition), and the mock exams match the real test's format exactly: 24 questions, 45 minutes, 75% to pass.</p>
+    </section>
+
+    <footer>
+        PassBritain — an independent study aid, not affiliated with the UK Government or the Home Office.<br>
+        <a href="pass_britain_privacy.html">Privacy Policy</a>
+    </footer>
+</main>
+</body>
+</html>
